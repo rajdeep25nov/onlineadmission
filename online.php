@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>onlineadmission.com</title>
+    <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/responsive.css">
+ <script src="js/resp.js"></script>
+  
+ <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 </head>
 <!-- style of the form -->
 <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
 
 <style>
     /* CSS Reset */
@@ -37,11 +43,12 @@
         display: block;
         width: 450px;
         padding: 10px ;
-        border: 4px solid black;
+        border: 4px solid grey;
         margin: 5px auto;
         font-size: 10px;
-        border-radius: 19px;
-        line-height: 2em;
+        border-radius: 1px;
+        line-height: 1em;
+        
     }
 
     
@@ -153,20 +160,10 @@
 
         <section class="section section-left" id="about">
             <div class="paras">
-                <p class="sectionTag text-big" style="font-family: cursive;" >Transforming Education in India</p>
-                <p class="sectionSubTag text-small">Many public schools provide a free education through the government.
-                    Parents may send their own children to a private
-                    schools, but they must pay for it. In some poorer places, some children cannot go to school, because
-                    their countries do
-                    not make education available in their countries, or because their families do not have enough money,
-                    or because the
-                    children have to work for money, or because the society have negative prejudice on education for
-                    girls.The city of Alexandria in
-                    Egypt, established in 330 BCE, became the successor to Athens as the intellectual cradle of Ancient
-                    Greece. There, the
-                    great Library of Alexandria was built in the 3rd century BCE. European civilizations suffered a
-                    collapse of literacy and
-                    organization following the fall of Rome in CE 476.</p>
+                <p class="sectionTag text-big" style="font-family: cursive;">Transforming Education in India</p>
+                <p class="sectionSubTag text-small">Every year, students in thousands stand in queues for collecting admission / application forms and then again for submitting the admission / application forms. This leads to problems in - managing the applications, handle queries, & distribution of forms, collection of forms and then short-listing the candidates resulting in annoyed parents and students alike. In addition to this, the admission process is not transparent, leading to possibility for widespread malpractice.
+
+The goal of 'Online Admission System' is to computerize the admission management system structure, its related operation, and functionality to rectify these weaknesses. Also, the purpose is to provide support to the administration and admission seeking candidates by providing a faster, transparent, and easy way of maintaining records and utilize them for reference and further proceedings.</p>
             </div>
             <div class="thumbnail">
                 <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_3075,w_5472,x_0,y_390/f_auto,q_auto,w_1100/v1554746313/shape/mentalfloss/554845-gettyimages-685052898_super.jpg"
@@ -685,80 +682,159 @@
             <option value="REVA University	">REVA University	</option>
             <option value="RIMT University">RIMT University </option>
             <option value="RK University	">RK University	 </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
-            <option value="For">For </option>
+            <option value="Sabarmati University">Sabarmati University </option>
+            <option value="Sage University">Sage University </option>
+            <option value="Sai Nath University">Sai Nath University </option>
+            <option value="Sai Tirupati University">Sai Tirupati University </option>
+            <option value="Sam Higginbottom Institute of Agriculture, Technology and Sciences">Sam Higginbottom Institute of Agriculture, Technology and Sciences </option>
+            <option value="Sambalpur University">Sambalpur University </option>
+            <option value="Sampurnanand Sanskrit Vishvavidyalaya">Sampurnanand Sanskrit Vishvavidyalaya </option>
+            <option value="Sanchi University of Buddhist-Indic Studies">Sanchi University of Buddhist-Indic Studies </option>
+            <option value="Sandip University	">Sandip University	 </option>
+            <option value="Sandip University, Sijoul">Sandip University, Sijoul </option>
+            <option value="Sangai International University">Sangai International University</option>
+            <option value="Sangam University	">Sangam University	 </option>
+            <option value="	Sanjay Gandhi Post Graduate Institute of Medical Sciences">	Sanjay Gandhi Post Graduate Institute of Medical Sciences</option>
+            <option value="Sanjay Ghodawat University	">Sanjay Ghodawat University	 </option>
+            <option value="Sankalchand Patel University	">Sankalchand Patel University	</option>
+            <option value="Sanskriti University">Sanskriti University </option>
+            <option value="Sant Baba Bhag Singh University"> Sant Baba Bhag Singh University</option>
+            <option value="Sant Gadge Baba Amravati University	">Sant Gadge Baba Amravati University	 </option>
+            <option value="Sant Longowal Institute of Engineering and Santosh University">Sant Longowal Institute of Engineering and Santosh University </option>
+            <option value="Santosh University">Santosh University </option>
+            <option value="Sarala Birla University	">Sarala Birla University	 </option>
+            <option value="Sardar Patel University	">Sardar Patel University	</option>
+            <option value="Sardar Patel University of Police, Security and Criminal Justice">Sardar Patel University of Police, Security and Criminal Justice</option>
+            <option value="Sardar Vallabhbhai National Institute of Technology, Surat	">Sardar Vallabhbhai National Institute of Technology, Surat	 </option>
+            <option value="Sardar Vallabhbhai Patel University of Agriculture and Technology	">Sardar Vallabhbhai Patel University of Agriculture and Technology	 </option>
+            <option value="Sardarkrushinagar Dantiwada Agricultural University">Sardarkrushinagar Dantiwada Agricultural University </option>
+            <option value="Sarguja University">Sarguja University </option>
+            <option value="For">Sarvepalli Radhakrishnan University	 </option>
+            <option value="SRM Institute of Science and Technology	">SRM Institute of Science and Technology	</option>
+            <option value="SRM University SRM University, Sikkim">SRM University SRM University, Sikkim </option>
+            <option value="SRM University, Sikkim">SRM University, Sikkim </option>
+            <option value="St. Joseph University	">St. Joseph University	 </option>
+            <option value="St. Peter's Institute of Higher Education and Research">St. Peter's Institute of Higher Education and Research </option>
+            <option value="St. Xavier's University">St. Xavier's University </option>
+            <option value="Swami Keshwanand Rajasthan Agricultural University">Swami Keshwanand Rajasthan Agricultural University </option>
+            <option value="Swami Rama Himalayan University	"> Swami Rama Himalayan University	</option>
+            <option value="Swami Ramanand Teerth Marathwada University	">Swami Ramanand Teerth Marathwada University	 </option>
+            <option value="Swami Vivekanand Subharti University">Swami Vivekanand Subharti University </option>
+            <option value="	Swami Vivekanand University">	Swami Vivekanand University </option>
+            <option value="Swami Vivekananda Yoga Anusandhana Samsthana	">Swami Vivekananda Yoga Anusandhana Samsthana	</option>
+            <option value="Swarnim Gujarat Sports University">Swarnim Gujarat Sports University </option>
+            <option value="Swarnim Startup and Innovation University	">Swarnim Startup and Innovation University	 </option>
+            <option value="Symbiosis International University">Symbiosis International University </option>
+            <option value="Symbiosis University of Applied Sciences	">Symbiosis University of Applied Sciences	 </option>
+            <option value="Tamil Nadu Agricultural University">Tamil Nadu Agricultural University </option>
+            <option value="Tamil Nadu Dr Ambedkar Law University	">Tamil Nadu Dr Ambedkar Law University	 </option>
+            <option value="Tamil Nadu Dr. J. Jayalalithaa Fisheries University	">Tamil Nadu Dr. J. Jayalalithaa Fisheries University	</option>
+            <option value="Tamil Nadu Dr. M.G.R.Medical University	">Tamil Nadu Dr. M.G.R.Medical University	</option>
+            <option value="Tamil Nadu Music and Fine Arts University">Tamil Nadu Music and Fine Arts University </option>
+            <option value="Tamil Nadu National Law University">Tamil Nadu National Law University </option>
+            <option value="Tamil Nadu Physical Education and Sports University">Tamil Nadu Physical Education and Sports University </option>
+            <option value="Tamil Nadu Teacher Education University	">Tamil Nadu Teacher Education University	</option>
+            <option value="Tamil Nadu Veterinary and Animal Sciences University	">Tamil Nadu Veterinary and Animal Sciences University	 </option>
+            <option value="Tamil University	">Tamil University	 </option>
+            <option value="Tantia University	">Tantia University	 </option>
+            <option value="Tata Institute of Fundamental Research">Tata Institute of Fundamental Research </option>
+            <option value="Tata Institute of Social Sciences	">Tata Institute of Social Sciences	 </option>
+            <option value="TeamLease Skills University">TeamLease Skills University </option>
+            <option value="Techno India University	">Techno India University	 </option>
+            <option value="Teerthanker Mahaveer University	">Teerthanker Mahaveer University	 </option>
+            <option value="Telangana University">Telangana University </option>
+            <option value="TERI School of Advanced Studies">TERI School of Advanced Studies </option>
+            <option value="Tezpur University	">Tezpur University	 </option>
+            <option value="Thapar Institute of Engineering and Technology	">Thapar Institute of Engineering and Technology	</option>
+            <option value="The English and Foreign Languages University	">The English and Foreign Languages University	</option>
+            <option value="The IIS University	">The IIS University	 </option>
+            <option value="The Indian Law Institute	">The Indian Law Institute	 </option>
+            <option value="The LNM Institute of Information Technology	">The LNM Institute of Information Technology	</option>
+            <option value="The Maharaja Sayajirao University of Baroda	">The Maharaja Sayajirao University of Baroda	 </option>
+            <option value="The National University of Advanced Legal Studies">The National University of Advanced Legal Studies</option>
+            <option value="The Neotia University	">The Neotia University	 </option>
+            <option value="The Northcap University	">The Northcap University	 </option>
+            <option value="The Sanskrit College and University	">The Sanskrit College and University	 </option>
+            <option value="The West Bengal National University of Juridical Sciences	">The West Bengal National University of Juridical Sciences	</option>
+            <option value="Thiruvalluvar University	">Thiruvalluvar University	 </option>
+            <option value="Thunchath Ezhuthachan Malayalam University	">Thunchath Ezhuthachan Malayalam University	 </option>
+            <option value="Tilak Maharashtra Vidyapeeth	">Tilak Maharashtra Vidyapeeth	</option>
+            <option value="Tilka Manjhi Bhagalpur University">Tilka Manjhi Bhagalpur University </option>
+            <option value="Tripura University	">Tripura University	 </option>
+            <option value="Uka Tarsadia University	">Uka Tarsadia University	 </option>
+            <option value="University of Agricultural and Horticultural Sciences, Shivamogga">University of Agricultural and Horticultural Sciences, Shivamogga </option>
+            <option value="University of Agricultural Sciences, Bangalore	">University of Agricultural Sciences, Bangalore	 </option>
+            <option value="University of Agricultural Sciences, Dharwad	">University of Agricultural Sciences, Dharwad	 </option>
+            <option value="University of Agricultural Sciences, Raichur	">University of Agricultural Sciences, Raichur	</option>
+            <option value="University of Allahabad	">University of Allahabad	 </option>
+            <option value="University of Burdwan	">University of Burdwan	</option>
+            <option value="University of Calcutta">University of Calcutta </option>
+            <option value="University of Calicut	">University of Calicut	 </option>
+            <option value="University of Delhi">University of Delhi </option>
+            <option value="University of Engineering and Management, Kolkata	">University of Engineering and Management, Kolkata	 </option>
+            <option value="University of Gour Banga	">University of Gour Banga	 </option>
+            <!-- project by rajdeep esha and kayna bachelors of engineering chandigarh University -->
+            <option value="University of Horticultural Sciences, Bagalkot	">University of Horticultural Sciences, Bagalkot	 </option>
+            <option value="University of Hyderabad	">University of Hyderabad	 </option>
+            <option value="University of Jammu	">University of Jammu	 </option>
+            <option value="University of Kalyani	">University of Kalyani	 </option>
+            <option value="University of Kashmir	">University of Kashmir	</option>
+            <option value="University of Kerala	">University of Kerala	 </option>
+            <option value="University of Kota	">University of Kota	</option>
+            <option value="University of Lucknow	">University of Lucknow	</option>
+            <option value="University of Madras	">University of Madras	 </option>
+            <option value="University of Mumbai	">University of Mumbai	 </option>
+            <option value="University of Mysore	">University of Mysore	 </option>
+            <option value="University of North Bengal	">University of North Bengal	 </option>
+            <option value="University of Patanjali	">University of Patanjali	</option>
+            <option value="University of Petroleum and Energy Studies	">University of Petroleum and Energy Studies	</option>
+            <option value="University of Rajasthan	">University of Rajasthan	 </option>
+            <option value="University of Science and Technology, Meghalaya	">University of Science and Technology, Meghalaya	 </option>
+            <option value="University of Technology	">University of Technology	 </option>
+            <option value="University of Trans-Disciplinary Health Sciences and Technology	">University of Trans-Disciplinary Health Sciences and Technology	 </option>
+            <option value="Usha Martin University	">Usha Martin University	 </option>
+            <option value="Utkal University	">Utkal University	</option>
+            <option value="Utkal University of Culture	">Utkal University of Culture	 </option>
+            <option value="Uttar Banga Krishi Viswavidyalaya	">Uttar Banga Krishi Viswavidyalaya	</option>
+            <option value="Uttar Pradesh University of Medical Sciences	">Uttar Pradesh University of Medical Sciences	</option>
+            <option value="Uttarakhand Aawasiya Vishwavidyalaya, Almora	">Uttarakhand Aawasiya Vishwavidyalaya, Almora	 </option>
+            <option value="Uttarakhand Ayurved University	">Uttarakhand Ayurved University	 </option>
+            <option value="For">Uttarakhand Sanskrit University	 </option>
+            <option value="Uttarakhand Technical University	">Uttarakhand Technical University	 </option>
+            <option value="Uttaranchal University	">Uttaranchal University	 </option>
+            <option value="For">Vasantrao Naik Marathwada Krishi Vidyapeeth	 </option>
+            <option value="Veer Bahadur Singh Purvanchal University	">Veer Bahadur Singh Purvanchal University	 </option>
+            <option value="Veer Chandra Singh Garhwali Uttarakhand University of Horticulture & Forestry	">Veer Chandra Singh Garhwali Uttarakhand University of Horticulture & Forestry	 </option>
+            <option value="Veer Kunwar Singh University	">Veer Kunwar Singh University	 </option>
+            <option value="Veer Narmad South Gujarat University	">Veer Narmad South Gujarat University	 </option>
+            <option value="For">Veer Surendra Sai University of Technology	 </option>
+            <option value="Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology">Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology </option>
+            <option value="Vels University">Vels University </option>
+            <option value="Vidyasagar University	">Vidyasagar University	</option>
+            <option value="For">Vignan University	 </option>
+            <option value="Vijayanagara Sri Krishnadevaraya University	">Vijayanagara Sri Krishnadevaraya University	 </option>
+            <option value="Vikram University	">Vikram University	 </option>
+            Vikrama Simhapuri University	 </option>
+            <option value="Vinayaka Mission's Research Foundation	">Vinayaka Mission's Research Foundation	</option>
+            <option value="Vinayaka Missions Sikkim University	">Vinayaka Missions Sikkim University	 </option>
+            <option value="Vinoba Bhave University	">Vinoba Bhave University	 </option>
+            <option value="Vinoba Bhave University	">Vinoba Bhave University	 </option>
+            <option value="Visva-Bharati University	">Visva-Bharati University	 </option>
+            <option value="Visvesvaraya National Institute of Technology	">Visvesvaraya National Institute of Technology	</option>
+            <option value="Visvesvaraya Technological University	">Visvesvaraya Technological University	 </option>
+            <option value="VIT Bhopal University	">VIT Bhopal University	 </option>
+            <option value="VIT University	">VIT University	 </option>
+            <option value="Vivekananda Global University"> Vivekananda Global University</option>
+            <option value="West Bengal State University	">West Bengal State University	</option>
+            <option value="West Bengal University of Animal and Fishery Sciences	">West Bengal University of Animal and Fishery Sciences	 </option>
+            <option value="West Bengal University of Health Sciences	">West Bengal University of Health Sciences	</option>
+            <option value="West Bengal University of Teachers' Training, Education Planning and Administration	">West Bengal University of Teachers' Training, Education Planning and Administration	 </option>
+            <option value="William Carey University, Meghalaya	">William Carey University, Meghalaya	 </option>
+            <option value="Xavier University Bhubaneswar	">Xavier University Bhubaneswar	 </option>
+            <option value="YBN University	">YBN University	 </option>
+            <option value="Yenepoya University	">Yenepoya University	 </option>
+            <option value="Yogi Vemana University	">Yogi Vemana University	 </option>
+            <
              
             </select></td></tr>
 
@@ -802,16 +878,16 @@
         <br>
         <br>
         <br> -->
-
+        <!-- <div><footer >
+            <p >
+                Copyright &copy; Dont worry we are here for you get direct Admission anywhere ,dot let your dreams die.
+            </p>
+        </footer></div> -->
 
 
         
         <script src="js/resp.js"></script>
-        <!-- <div><footer class="background">
-            <p class="text-footer">
-                Copyright &copy; Dont worry we are here for you get direct Admission anywhere ,dot let your dreams die.
-            </p>
-        </footer></div> -->
+        
     </body>
 
     </html>
